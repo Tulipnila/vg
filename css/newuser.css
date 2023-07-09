@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+#signUpBox{
+    width: 70%;
+    min-width: 1300px;
+    height: 88%;
+    min-height: 620px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 5px 5px rgba(128, 0, 128, 0.226);
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+header{
+    border-bottom: 10px solid purple;
+    display: flex;
+    align-items: center;
+    text-indent: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -2px -2px purple;
+    color:rgba(128, 0, 128, 0.365);
+}
+main{
+    display: grid;
+    grid-template-rows: 80px 1fr 50px;
+}
+nav p{
+    margin-top:15px;
+    text-indent: 30px;
+    color:purple;
+    font-weight: 500;
+    font-size: 20px;
+}
+h5{
+    text-indent: 30px;
+    margin-top:15px;
+    font-style: italic;
+    color:rgb(255, 166, 0);   
+}
+aside{
+    border-bottom: 3px solid rgba(128, 0, 128, 0.518);
+    padding-left:40px;
+    padding-right:40px;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    outline:none;
+    border-color: rgba(128, 128, 128, 0.541);
+    
+}
+input:focus{
+    box-shadow: 0px 0px 2px 2px rgba(128, 0, 128, 0.326);
+    border-color: purple;
+}
+form{
+    display: flex;
+    gap:15px;
+}
+form label{
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+form p{
+    width: 500px;
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color:purple;
+    font-size: 12px;
+    background-color: rgba(243, 202, 243, 0.508);
+    padding-left:40px;
+    padding-right:40px;
+}
+#terms{
+    width: 70%;
+}
+#rights{
+    width: 30%;
+    text-indent: 10px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+}
+li{
+    border-left:2px solid grey;
+    list-style-type: none;
+    text-indent: 10px;
+}
+
+sup{
+    color:rgb(255, 140, 0);   
+
+}
+.agreePara{
+    font-size: 15px;
+}
+button{
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 160, 8, 0.76);
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border:none;
+    box-shadow: 2px 2px 3px 3px orange;
+}
+#button1{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+#button2{
+    position: relative;
+}
+#submit{
+    position: absolute;
+    left: 47.5%;
+}
+form{
+    position: relative;
+}
+form i{
+    visibility: hidden;
+    position: absolute;
+    left:460px;
+    top:12px;
+}
+small{
+    width: 250px;
+    height: 10px;
+    position: absolute;
+    bottom: -12px;
+    left:220px;
+    color: red;
+}
+#agree:focus{
+    opacity: .5;
+    cursor: not-allowed;
+}
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      width: 100%;
+      height: 100%;
+    }
+  
+    #signUpBox {
+      width: 90%;
+      min-width: auto;
+      height: 100%;
+      min-height: auto;
+    }
+  
+    header {
+      font-size: 30px;
+    }
+  
+    nav p {
+      font-size: 18px;
+    }
+  
+    h5 {
+      font-size: 16px;
+    }
+  
+    aside {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    input {
+      width: 100%;
+    }
+  
+    form label {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    form p {
+      width: 100%;
+      font-size: 11px;
+    }
+  
+    footer {
+      font-size: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tula Bank</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/newuser.css">
+</head>
+<body>
+    <div id="container">
+        <aside id="loginbox"></aside>
+    </div>
+   <script src = "js/login.js"></script>
+    <script src="js/loginModel.js"></script>
+    <script src="js/loginView.js"></script>
+    <script src="js/loginController.js"></script>
+
+    <script src="js/dashboardModel.js"></script>
+    <script src="js/dashboardView.js"></script>
+    <script src="js/dashboardController.js"></script>
+
+    <script src="js/newUserModel.js"></script>
+    <script src="js/newUserView.js"></script>
+    <script src="js/newUserController.js"></script>
+
+    <script>
+        // Instantiate the controllers and initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            const loginController = new LoginController();
+            const dashboardController = new DashboardController();
+            const newUserController = new NewUserController();
+
+            // Additional initialization logic if needed
+
+            // Example: Render login form
+            loginController.view.renderLoginForm();
+        });
+    </script>
+</body>
+</html>

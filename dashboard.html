@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div id="dashBoardContainer">
+        <header>
+            <h2 class="logo">Tula Bank</h2>
+            <nav class = "navigation">
+                <a href = "#"><ion-icon class = "icon" name="home-sharp"></ion-icon></a>
+                <a href = "#"><ion-icon class = "icon" name="cash"></ion-icon></a>
+                <a href = "#"><ion-icon class = "icon" name="bar-chart"></ion-icon></a>
+                <a href = "#"><ion-icon class = "icon" name="notifications"></ion-icon></a>
+                <a href = "#"><ion-icon class = "icon" name="settings-sharp"></ion-icon></a>
+                <a href = "login.html"><ion-icon class = "icon" name="log-out-sharp"></ion-icon></a>
+
+
+            </nav>
+        </header>
+        <menu>
+            <div class="row1">
+                <div class="trans_head">Your Dashboard</div>
+                <div class="balance">TotalBalance Rs.<span></span></div>
+                <div class="profile">
+                    <div class="circle"></div>
+                    <div class="square"></div>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="amt deposit">
+                    <div class="name">Total Deposit</div>
+                    <div class="dep amount">Rs. <span></span></div>
+                </div>
+                <div class="amt withdraw">
+                    <div class="name">Total Withdraw</div>
+                    <div class="with amount">Rs. <span></span></div>
+                </div>
+                <div class="amt total">
+                    <div class="name">Total Balance</div>
+                    <div class="total amount">Rs. <span></span></div>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="calc dep">
+                    <div class="name">Deposit</div>
+                    <input type="number" id="inputdep" placeholder="deposit amount">
+                    <button class="credit">Submit</button>
+                </div>
+                <div class="calc with">
+                    <div class="name">Withdraw</div>
+                    <input type="number" id="inputwith" placeholder="withdraw amount">
+                    <button class="debit">Submit</button>
+                </div>
+            </div>
+        </menu>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>

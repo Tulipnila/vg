@@ -1,0 +1,116 @@
+{
+    "accountHolders" : [
+        {
+            "custId" : 1111,
+            "name" : "Tulip",
+            "username" : "tulip",
+            "password" : "tulip#1",
+            "accounts" : [
+                {
+                    "accountNumber" : 1234567890,
+                    "balance" : 5000.00,
+                    "transactions" : [
+                        {
+                            "transactionId" : 987654321,
+                            "date" : "2023-07-09",
+                            "type" : "credit",
+                            "amount" : 1000.00,
+                            "description" : "Salary Deposit"
+                        },
+                        {
+                            "transactionId" : 123456789,
+                            "date" : "2023-07-07",
+                            "type" : "debit",
+                            "amount" : 500.00,
+                            "description" : "Shopping"   
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "custId" : 1112,
+            "name" : "Nila",
+            "username" : "nila",
+            "password" : "nila#2",
+            "accounts" : [
+                {
+                    "accountNumber" : 2345678901,
+                    "balance" : 800.00,
+                    "transactions" : [
+                        {
+                            "transactionId" : 876543219,
+                            "date" : "2023-07-09",
+                            "type" : "credit",
+                            "amount" : 2000.00,
+                            "description" : "Salary Deposit"
+                        },
+                        {
+                            "transactionId" : 234567891,
+                            "date" : "2023-07-07",
+                            "type" : "debit",
+                            "amount" : 500.00,
+                            "description" : "Utility Bill Payment"   
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "custId" : 1113,
+            "name" : "Ram",
+            "username" : "ram",
+            "password" : "ram#3",
+            "accounts" : [
+                {
+                    "accountNumber" : 3456789012,
+                    "balance" : 12000.00,
+                    "transactions" : [
+                        {
+                            "transactionId" : 765432198,
+                            "date" : "2023-07-09",
+                            "type" : "credit",
+                            "amount" : 6000.00,
+                            "description" : "Salary Deposit"
+                        },
+                        {
+                            "transactionId" : 345678912,
+                            "date" : "2023-07-07",
+                            "type" : "debit",
+                            "amount" : 760.00,
+                            "description" : "EB Bill Payment"   
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "custId" : 1114,
+            "name" : "Vedha",
+            "username" : "vedha",
+            "password" : "vedha#4",
+            "accounts" : [
+                {
+                    "accountNumber" : 4567890123,
+                    "balance" : 9000.00,
+                    "transactions" : [
+                        {
+                            "transactionId" : 654321987,
+                            "date" : "2023-07-09",
+                            "type" : "credit",
+                            "amount" : 6000.00,
+                            "description" : "Salary Deposit"
+                        },
+                        {
+                            "transactionId" : 456789123,
+                            "date" : "2023-07-07",
+                            "type" : "debit",
+                            "amount" : 4000.00,
+                            "description" : "Loan Payment"   
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
